@@ -1,0 +1,27 @@
+#########################################
+# Required for image output
+width: 400
+px_per_song: 100
+main_text_color: "#CCCCCC"
+sub_text_color: "#DDDDDD"
+bg_color: "#222222"
+v_pad: 20
+h_pad: 20
+main_font_size: 25
+main_font: "playlist/fonts/Montserrat-ExtraBold.ttf"
+sub_font: "playlist/fonts/Montserrat-Italic.ttf"
+sub_font_size: 20
+default_album: "playlist/data/default.png"
+
+LASTFM_API_KEY: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#########################################
+
+#########################################
+# Spotify API and account credentials
+CLIENT_ID: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+CLIENT_SECRET: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+USERNAME: "xxxxxxxxxxx"
+PLAYLIST: "FooBar"
+REDIRECT_URI: "http://localhost:8888/callback/"
+SCOPE: "playlist-modify-public user-library-read user-library-modify"
+##########################################
